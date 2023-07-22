@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/controller/DeliverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/factory/FreeGoodsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/factory/impl/DiscountFreeGoodsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/factory/impl/SmallGiftFreeGoodsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/factory/impl/YouKuMemberFreeGoodsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/controller/DeliverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/service/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/service/SmallGiftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/service/YouKuMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/AwardInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/DiscountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/DiscountResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/SmallGiftInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/entity/YouKuMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/service/IFreeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/service/impl/DiscountFreeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/service/impl/SmallGiftFreeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/service/impl/YouKuMemberFreeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/simplefactory/controller/DeliverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/simplefactory/factory/FreeGoodsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/SingletonCurrent_l.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/SingletonDoubleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/SingletonStaticClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/Singleton_e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singleton/Singleton_l.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factory/TestAward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/TestSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/Test_Serializable.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JavaUtil\apache-maven-3.9.0\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.9.0" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\JavaUtil\apache-maven-3.9.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ShXEpvoTKvjZKkhiUeJMlOVASw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JavaUtil/WorkSpace/design_mode_23/src/main/java/com/factory/none/entity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\simplefactory\service\impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.factory.none.entity" />
+      <recent name="com.factory.simplefactory.factory" />
+      <recent name="com.factory.factoryMethod.factory" />
+      <recent name="com.factory.simplefactory.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAward.test02">
+    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.TestSingleton" />
+      <module name="design_mode_23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAward.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factory" />
+      <option name="MAIN_CLASS_NAME" value="factory.TestAward" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSingleton.testDoubleCheckSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <option name="PACKAGE_NAME" value="singleton" />
+      <option name="MAIN_CLASS_NAME" value="singleton.TestSingleton" />
+      <option name="METHOD_NAME" value="testDoubleCheckSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSingleton.testSingletonCurrent_l" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <option name="PACKAGE_NAME" value="singleton" />
+      <option name="MAIN_CLASS_NAME" value="singleton.TestSingleton" />
+      <option name="METHOD_NAME" value="testSingletonCurrent_l" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSingleton.testSingletonStaticClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <option name="PACKAGE_NAME" value="singleton" />
+      <option name="MAIN_CLASS_NAME" value="singleton.TestSingleton" />
+      <option name="METHOD_NAME" value="testSingletonStaticClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAward.test02" />
+        <item itemvalue="Application.TestSingleton" />
+        <item itemvalue="JUnit.TestSingleton.testSingletonStaticClass" />
+        <item itemvalue="JUnit.TestSingleton.testDoubleCheckSingleton" />
+        <item itemvalue="JUnit.TestSingleton.testSingletonCurrent_l" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="" />
+      <created>1689599686710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689599686710</updated>
+      <workItem from="1689599687603" duration="719000" />
+      <workItem from="1690016745965" duration="17844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
