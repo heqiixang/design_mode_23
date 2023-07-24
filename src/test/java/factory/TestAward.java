@@ -1,6 +1,6 @@
 package factory;
 
-import com.factory.none.controller.DeliverController;
+import com.factory.publiccom.controller.DeliverController;
 import com.factory.publiccom.entity.AwardInfo;
 import org.junit.Test;
 
@@ -57,43 +57,9 @@ public class TestAward {
      */
     @Test
     public void test02(){
-
-
-        com.factory.simplefactory.controller.DeliverController deliverController1 = new com.factory.simplefactory.controller.DeliverController();
+        DeliverController deliverController = new DeliverController();
 
         //1. 发放打折券优惠
-        AwardInfo info1 = new AwardInfo();
-        info1.setUid("1001");
-        info1.setAwardType(1);
-        info1.setAwardNumber("DEL12345");
-        deliverController1.awardToUser(info1);
-
-        AwardInfo info2 = new AwardInfo();
-        info2.setUid("1002");
-        info2.setAwardType(2);
-        info2.setAwardNumber("DW12345");
-        Map<String,String> map = new HashMap<>();
-        map.put("phone","13512341234");
-        info2.setExtMap(map);
-        deliverController1.awardToUser(info2);
-
-        AwardInfo info3 = new AwardInfo();
-        info3.setUid("1003");
-        info3.setAwardType(3);
-        info3.setAwardNumber("SM12345");
-        Map<String,String> map2 = new HashMap<>();
-        map2.put("username","大远");
-        map2.put("phone","13512341234");
-        map2.put("address","北京天安门");
-        info3.setExtMap(map2);
-
-        deliverController1.awardToUser(info3);
-    }
-    /**
-     * 测试工厂方法
-     */
-    public void test03(){
-        com.factory.factoryMethod.controller.DeliverController deliverController=new com.factory.factoryMethod.controller.DeliverController();
         AwardInfo info1 = new AwardInfo();
         info1.setUid("1001");
         info1.setAwardType(1);
@@ -118,7 +84,73 @@ public class TestAward {
         map2.put("phone","13512341234");
         map2.put("address","北京天安门");
         info3.setExtMap(map2);
+
         deliverController.awardToUser(info3);
+    }
+    /**
+     * 测试工厂方法
+     */
+    @Test
+    public void testFactoryMethodAward(){
+        DeliverController deliverController=new DeliverController();
+        AwardInfo info1 = new AwardInfo();
+        info1.setUid("1001");
+        info1.setAwardType(1);
+        info1.setAwardNumber("DEL12345");
+        deliverController.factoryMethodAward(info1);
+
+        AwardInfo info2 = new AwardInfo();
+        info2.setUid("1002");
+        info2.setAwardType(2);
+        info2.setAwardNumber("DW12345");
+        Map<String,String> map = new HashMap<>();
+        map.put("phone","13512341234");
+        info2.setExtMap(map);
+        deliverController.factoryMethodAward(info2);
+
+        AwardInfo info3 = new AwardInfo();
+        info3.setUid("1003");
+        info3.setAwardType(3);
+        info3.setAwardNumber("SM12345");
+        Map<String,String> map2 = new HashMap<>();
+        map2.put("username","大远");
+        map2.put("phone","13512341234");
+        map2.put("address","北京天安门");
+        info3.setExtMap(map2);
+        deliverController.factoryMethodAward(info3);
+    }
+
+    /**
+     * 工厂方法升级
+     */
+    @Test
+    public void testAbstractFactoryAward(){
+     DeliverController deliverController=new com.factory.publiccom.controller.DeliverController();
+        AwardInfo info1 = new AwardInfo();
+        info1.setUid("1001");
+        info1.setAwardType(1);
+        info1.setAwardNumber("DEL12345");
+        deliverController.abstractFactoryAward(info1);
+
+        AwardInfo info2 = new AwardInfo();
+        info2.setUid("1002");
+        info2.setAwardType(2);
+        info2.setAwardNumber("DW12345");
+        Map<String,String> map = new HashMap<>();
+        map.put("phone","13512341234");
+        info2.setExtMap(map);
+        deliverController.abstractFactoryAward(info2);
+
+        AwardInfo info3 = new AwardInfo();
+        info3.setUid("1003");
+        info3.setAwardType(3);
+        info3.setAwardNumber("SM12345");
+        Map<String,String> map2 = new HashMap<>();
+        map2.put("username","大远");
+        map2.put("phone","13512341234");
+        map2.put("address","北京天安门");
+        info3.setExtMap(map2);
+        deliverController.abstractFactoryAward(info3);
     }
 
 }
