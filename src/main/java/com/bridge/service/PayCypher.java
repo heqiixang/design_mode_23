@@ -1,6 +1,6 @@
-package com.bridgepattern.service;
+package com.bridge.service;
 
-import com.bridgepattern.IPayMode;
+import com.bridge.IPayMode;
 
 public class PayCypher implements IPayMode {
     @Override

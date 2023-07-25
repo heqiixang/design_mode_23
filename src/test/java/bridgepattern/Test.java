@@ -1,6 +1,6 @@
 package bridgepattern;
 
-import com.bridgepattern.service.*;
+import com.bridge.service.*;
 
 import java.math.BigDecimal;
 

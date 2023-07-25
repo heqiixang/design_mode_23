@@ -1,4 +1,4 @@
-package com.bridgepattern;
+package com.bridge;
 
 /**
  * 支付接口

@@ -1,6 +1,6 @@
-package com.bridgepattern.service;
+package com.bridge.service;
 
-import com.bridgepattern.IPayMode;
+import com.bridge.IPayMode;
 
 /**
  * 指纹支付
