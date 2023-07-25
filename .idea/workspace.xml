@@ -4,48 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/RabbitMQClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/builder/HelloBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/builder/MobikeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/director/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/entity/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/建造者原理图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/构建共享单车原理图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/factory/AppliancesFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/factory/HairFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/factory/HisenseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/AbstractFreezer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/AbstractTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/HairFreezer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/HairTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/HisenseFreezer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/abstract_factory/procude/HisenseTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/factory/FreeGoodsFactoryMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/cglib/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/cglib/UserLogProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/cglib/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/dynamic_proxy/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/static_proxy/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/static_proxy/UserProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/static_proxy/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/prototype/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/proxy/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="原型 代理">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/IPayMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/PayCypher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/PayFaceMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/PayFingerprintMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/WxPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/service/ZfbPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgepattern/桥接原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridgepattern/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factory/factoryMethod/controller/DeliverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/publiccom/controller/DeliverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factory/none/controller/DeliverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factory/none/service/SmallGiftService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/service/SmallGiftService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factory/none/service/YouKuMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/none/service/YouKuMemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factory/simplefactory/controller/DeliverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/TestAward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/TestAward.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,21 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaUtil/WorkSpace/design_mode_23/src/main/java/com/factory/none/entity",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaUtil/WorkSpace/design_mode_23/src/main/java/com/factory/none/entity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
@@ -134,7 +103,7 @@
       <recent name="com.factory.simplefactory.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="JUnit.Test.test (2)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.proxy.cglib.Client" />
       <module name="design_mode_23" />
@@ -164,16 +133,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="bridgepattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="prototype" />
-      <option name="MAIN_CLASS_NAME" value="prototype.Test" />
+      <option name="PACKAGE_NAME" value="bridgepattern" />
+      <option name="MAIN_CLASS_NAME" value="bridgepattern.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -214,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test (2)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.Test.test01 (1)" />
         <item itemvalue="JUnit.Test.test (1)" />
         <item itemvalue="JUnit.Test.test01" />
-        <item itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +202,8 @@
       <workItem from="1689599687603" duration="719000" />
       <workItem from="1690016745965" duration="18348000" />
       <workItem from="1690092550899" duration="12039000" />
-      <workItem from="1690202778211" duration="4546000" />
+      <workItem from="1690202778211" duration="5379000" />
+      <workItem from="1690289794061" duration="2631000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -242,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690041845192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="原型 代理">
+      <created>1690210964276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690210964276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单例简单工厂 工厂方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例简单工厂 工厂方法" />
+    <MESSAGE value="原型 代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="原型 代理" />
   </component>
 </project>
