@@ -1,4 +1,4 @@
-package bridgepattern;
+package bridge;
 
 import com.bridge.service.*;
 
