@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="桥接">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/decorator/BataFileDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/decorator/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/decorator/DataLoaderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/decorator/EncryptionDataDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/decorator/装饰器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/decorator/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="装饰器读写文件">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/Objectadapter/SDAdapterTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/Objectadapter/对象适配器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/SDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/TFCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/service/SDAdapterTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/service/SDCardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/service/TFCardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adapter/classadapter/类适配器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/SubSystemA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/SubSystemB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/SubSystemC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/smart/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/smart/SmartFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/smart/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/smart/智能家电外观模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facade/外观模式（门面）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/facade/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bridgepattern/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bridge/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +83,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -89,43 +102,31 @@
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\facade\smart" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\adapter\classadapter" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\adapter\classadapter\service" />
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\proxy\cglib" />
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\prototype" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\builder" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\builder\director" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\builder\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.facade.smart" />
+      <recent name="com.facade" />
       <recent name="com.factory.none.entity" />
       <recent name="com.factory.simplefactory.factory" />
       <recent name="com.factory.factoryMethod.factory" />
-      <recent name="com.factory.simplefactory.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test1">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.proxy.cglib.Client" />
+  <component name="RunManager" selected="JUnit.Test.test1 (2)">
+    <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.proxy.cglib.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_mode_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="decorator" />
-      <option name="MAIN_CLASS_NAME" value="decorator.Test" />
+      <option name="PACKAGE_NAME" value="adapter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,45 +137,45 @@
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bridge.*" />
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bridgepattern" />
-      <option name="MAIN_CLASS_NAME" value="bridge.Test" />
+      <option name="PACKAGE_NAME" value="facade" />
+      <option name="MAIN_CLASS_NAME" value="facade.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="proxy" />
-      <option name="MAIN_CLASS_NAME" value="proxy.Test" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="adapter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="prototype" />
-      <option name="MAIN_CLASS_NAME" value="prototype.Test" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="facade" />
+      <option name="MAIN_CLASS_NAME" value="facade.Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test1 (2)" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="JUnit.Test.test1 (1)" />
         <item itemvalue="JUnit.Test.test1" />
-        <item itemvalue="JUnit.Test.test (2)" />
-        <item itemvalue="JUnit.Test.test (2)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.Test.test01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,8 @@
       <workItem from="1690016745965" duration="18348000" />
       <workItem from="1690092550899" duration="12039000" />
       <workItem from="1690202778211" duration="5379000" />
-      <workItem from="1690289794061" duration="5514000" />
+      <workItem from="1690289794061" duration="6104000" />
+      <workItem from="1690376828006" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -248,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690297831113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="装饰器读写文件">
+      <created>1690299887537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690299887537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +278,7 @@
     <MESSAGE value="单例简单工厂 工厂方法" />
     <MESSAGE value="原型 代理" />
     <MESSAGE value="桥接" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接" />
+    <MESSAGE value="装饰器读写文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="装饰器读写文件" />
   </component>
 </project>
