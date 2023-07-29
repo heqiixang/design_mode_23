@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="适配器 门面">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/demo/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/demo/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/demo/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/combination/组合模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/combination/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="组合模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/ConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/UnsharedConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/BlackGobang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/GobangFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/GobangFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/WhiteGobang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/享元模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ConcreteObServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ConcreteObServer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example1/DrawHouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example1/LotteryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example1/LotteryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example1/LotteryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/LotteryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/LotteryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/MQEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/example2/MessageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/观察者.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/flyweight/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/observer/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,63 +109,47 @@
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\observer\example2" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\observer\example1" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\flyweight" />
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\facade\smart" />
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\adapter\classadapter" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\adapter\classadapter\service" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\proxy\cglib" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\prototype" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.observer" />
       <recent name="com.facade.smart" />
       <recent name="com.facade" />
       <recent name="com.factory.none.entity" />
       <recent name="com.factory.simplefactory.factory" />
-      <recent name="com.factory.factoryMethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test (2)">
+  <component name="RunManager" selected="JUnit.Test.test2">
     <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="adapter" />
-      <option name="MAIN_CLASS_NAME" value="adapter.Test" />
+      <option name="PACKAGE_NAME" value="observer" />
+      <option name="MAIN_CLASS_NAME" value="observer.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="combination.*" />
+          <option name="PATTERN" value="flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="combination" />
-      <option name="MAIN_CLASS_NAME" value="combination.Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_mode_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="facade" />
-      <option name="MAIN_CLASS_NAME" value="facade.Test" />
+      <option name="PACKAGE_NAME" value="flyweight" />
+      <option name="MAIN_CLASS_NAME" value="flyweight.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -157,29 +160,45 @@
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="adapter" />
-      <option name="MAIN_CLASS_NAME" value="adapter.Test" />
+      <option name="PACKAGE_NAME" value="observer" />
+      <option name="MAIN_CLASS_NAME" value="observer.Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="facade.*" />
+          <option name="PATTERN" value="flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="facade" />
-      <option name="MAIN_CLASS_NAME" value="facade.Test" />
+      <option name="PACKAGE_NAME" value="flyweight" />
+      <option name="MAIN_CLASS_NAME" value="flyweight.Test" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="observer" />
+      <option name="MAIN_CLASS_NAME" value="observer.Test" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test (2)" />
-        <item itemvalue="JUnit.Test.test1 (2)" />
-        <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="JUnit.Test.test2" />
         <item itemvalue="JUnit.Test.test1 (1)" />
+        <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="JUnit.Test.test1" />
+        <item itemvalue="JUnit.Test.test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +230,8 @@
       <workItem from="1690376828006" duration="6517000" />
       <workItem from="1690467345833" duration="19000" />
       <workItem from="1690467376988" duration="308000" />
-      <workItem from="1690467830998" duration="3070000" />
+      <workItem from="1690467830998" duration="3630000" />
+      <workItem from="1690622178357" duration="10392000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -255,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690383333254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="组合模式">
+      <created>1690471455288</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690471455288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +305,7 @@
     <MESSAGE value="桥接" />
     <MESSAGE value="装饰器读写文件" />
     <MESSAGE value="适配器 门面" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器 门面" />
+    <MESSAGE value="组合模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="组合模式" />
   </component>
 </project>
