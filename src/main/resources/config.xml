@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <className name="Mt1011">com.mashibing.example03.Mt1011ReceiptHandleStrategy</className>
+    <className name="Mt2101">com.mashibing.example03.Mt2101ReceiptHandleStrategy</className>
+</config>
