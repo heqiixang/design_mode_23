@@ -4,47 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="享元 观察者">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/HandlerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/HandlerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/HandlerC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example01/RequestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example02/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example02/AuthInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example02/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example03/AuthLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example03/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example03/Level1AuthLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example03/Level2AuthLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chain/example03/Level3AuthLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/ConcreteStrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/ConcreteStrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example01/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example01/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example01/ReceiptBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example02/Mt1011ReceiptHandleStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example02/Mt2101ReceiptHandleStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example02/ReceiptHandleStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example02/ReceiptHandleStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strategy/example02/ReceiptStrategyContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/AbstractClassTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/ConcreteClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/ConcreteClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/example02/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/example02/LoanOneMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/example02/LoanSevenDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/template/模板方法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/strategy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/template/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="模板 策略 责任链">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe/ConcreteIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe1/IteratorIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe1/ListList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe1/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe1/TopicIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iterator/examlpe1/TopicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example/ConcreteStateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example1/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example2/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example2/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example2/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example2/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/example2/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/state/状态模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iterator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,48 +102,63 @@
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\chain\example03" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\chain\example02" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\chain\example01" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\chain\example" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\resources" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\iterator\examlpe1" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\iterator\examlpe" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\iterator" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\state\example2" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\state\example1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="iterator" />
+      <recent name="state" />
       <recent name="com.observer" />
       <recent name="com.facade.smart" />
       <recent name="com.facade" />
-      <recent name="com.factory.none.entity" />
-      <recent name="com.factory.simplefactory.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test_AuthLink">
+  <component name="RunManager" selected="JUnit.Test">
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iterator" />
+      <option name="MAIN_CLASS_NAME" value="iterator.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chain.*" />
+          <option name="PATTERN" value="iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chain" />
-      <option name="MAIN_CLASS_NAME" value="chain.Test" />
+      <option name="PACKAGE_NAME" value="iterator" />
+      <option name="MAIN_CLASS_NAME" value="iterator.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chain.*" />
+          <option name="PATTERN" value="state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chain" />
-      <option name="MAIN_CLASS_NAME" value="chain.Test" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="state" />
+      <option name="MAIN_CLASS_NAME" value="state.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,45 +168,29 @@
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strategy.*" />
+          <option name="PATTERN" value="state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="strategy" />
-      <option name="MAIN_CLASS_NAME" value="strategy.Test" />
+      <option name="PACKAGE_NAME" value="state" />
+      <option name="MAIN_CLASS_NAME" value="state.Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strategy.*" />
+          <option name="PATTERN" value="state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="strategy" />
-      <option name="MAIN_CLASS_NAME" value="strategy.Test" />
+      <option name="PACKAGE_NAME" value="state" />
+      <option name="MAIN_CLASS_NAME" value="state.Test" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test_AuthLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_mode_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chain" />
-      <option name="MAIN_CLASS_NAME" value="chain.Test" />
-      <option name="METHOD_NAME" value="test_AuthLink" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test_AuthLink" />
-        <item itemvalue="JUnit.Test.test1 (1)" />
+        <item itemvalue="JUnit.Test" />
         <item itemvalue="JUnit.Test.test (1)" />
-        <item itemvalue="JUnit.Test.test2 (1)" />
+        <item itemvalue="JUnit.Test.test2" />
         <item itemvalue="JUnit.Test.test1" />
+        <item itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +224,8 @@
       <workItem from="1690467376988" duration="308000" />
       <workItem from="1690467830998" duration="3630000" />
       <workItem from="1690622178357" duration="10530000" />
-      <workItem from="1690683581225" duration="11929000" />
+      <workItem from="1690683581225" duration="12411000" />
+      <workItem from="1690807799139" duration="4895000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -302,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690643228758</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="模板 策略 责任链">
+      <created>1690728919321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690728919321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +315,7 @@
     <MESSAGE value="适配器 门面" />
     <MESSAGE value="组合模式" />
     <MESSAGE value="享元 观察者" />
-    <option name="LAST_COMMIT_MESSAGE" value="享元 观察者" />
+    <MESSAGE value="模板 策略 责任链" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板 策略 责任链" />
   </component>
 </project>
