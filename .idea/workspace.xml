@@ -4,23 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="状态 迭代器">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/example/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/example/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/example/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/example1/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/example1/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/memento/备忘录.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/Acceptable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/DiscountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/Wine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visitor/访问者.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/memento/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/visitor/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="访问者 备忘录">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/OrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example/ExpressionInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/DivExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/ExpressionInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/MulExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/NumExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/PluExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/SubExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/ConcreteColleagueA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/ConcreteColleagueB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/MediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/HouseOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/MediatorStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/中介者.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interpreter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mediator/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,62 +111,47 @@
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\memento\example1" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\memento\example" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\iterator" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\visitor" />
-      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\iterator\examlpe1" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\command" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\mediator\example1" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\mediator\example" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\interpreter\example1" />
+      <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\interpreter\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="command" />
+      <recent name="interpreter" />
       <recent name="memento" />
       <recent name="visitor" />
       <recent name="iterator" />
-      <recent name="state" />
-      <recent name="com.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test1">
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_mode_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iterator" />
-      <option name="MAIN_CLASS_NAME" value="iterator.Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.*" />
+          <option name="PATTERN" value="mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iterator" />
-      <option name="MAIN_CLASS_NAME" value="iterator.Test" />
+      <option name="PACKAGE_NAME" value="mediator" />
+      <option name="MAIN_CLASS_NAME" value="mediator.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="visitor.*" />
+          <option name="PATTERN" value="interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="visitor" />
-      <option name="MAIN_CLASS_NAME" value="visitor.Test" />
+      <option name="PACKAGE_NAME" value="interpreter" />
+      <option name="MAIN_CLASS_NAME" value="interpreter.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -164,28 +162,44 @@
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memento.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="memento" />
-      <option name="MAIN_CLASS_NAME" value="memento.Test" />
+      <option name="PACKAGE_NAME" value="command" />
+      <option name="MAIN_CLASS_NAME" value="command.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memento.*" />
+          <option name="PATTERN" value="interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="memento" />
-      <option name="MAIN_CLASS_NAME" value="memento.Test" />
+      <option name="PACKAGE_NAME" value="interpreter" />
+      <option name="MAIN_CLASS_NAME" value="interpreter.Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mediator" />
+      <option name="MAIN_CLASS_NAME" value="mediator.Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -194,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test1" />
         <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.Test.test (2)" />
-        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.test1 (2)" />
         <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="JUnit.Test.test1 (1)" />
+        <item itemvalue="JUnit.Test.test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +236,8 @@
       <workItem from="1690622178357" duration="10530000" />
       <workItem from="1690683581225" duration="12411000" />
       <workItem from="1690807799139" duration="5437000" />
-      <workItem from="1690894493888" duration="1701000" />
+      <workItem from="1690894493888" duration="1868000" />
+      <workItem from="1690989957011" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -294,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690816329566</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="访问者 备忘录">
+      <created>1690902243054</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690902243054</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +343,7 @@
     <MESSAGE value="享元 观察者" />
     <MESSAGE value="模板 策略 责任链" />
     <MESSAGE value="状态 迭代器" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态 迭代器" />
+    <MESSAGE value="访问者 备忘录" />
+    <option name="LAST_COMMIT_MESSAGE" value="访问者 备忘录" />
   </component>
 </project>
