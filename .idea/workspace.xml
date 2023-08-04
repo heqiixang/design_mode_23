@@ -4,37 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="访问者 备忘录">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/OrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/command/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example/ExpressionInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/DivExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/ExpressionInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/MulExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/NumExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/PluExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/example1/SubExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/ConcreteColleagueA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/ConcreteColleagueB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example/MediatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/HouseOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/MediatorStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/example1/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediator/中介者.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/command/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interpreter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mediator/Test.java" afterDir="false" />
+    <list default="true" id="4bbf9e45-1b7c-41ad-beed-11d912bf1a51" name="Changes" comment="命令 解释器 中介。">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facade/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/GobangFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyweight/gobang/GobangFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +48,8 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\JavaUtil\apache-maven-3.9.0\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.9.0" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\JavaUtil\apache-maven-3.9.0\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2ShXEpvoTKvjZKkhiUeJMlOVASw" />
@@ -90,22 +58,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaUtil/WorkSpace/design_mode_23/src/main/java/com/factory/none/entity&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JavaUtil/WorkSpace/design_mode_23/src/main/java/com/factory/none/entity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaUtil\WorkSpace\design_mode_23\src\main\java\com\factory\none\entity" />
@@ -125,7 +96,22 @@
       <recent name="iterator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test">
+  <component name="RunManager" selected="JUnit.Test">
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_mode_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adapter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_mode_23" />
       <extension name="coverage">
@@ -136,22 +122,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="mediator" />
       <option name="MAIN_CLASS_NAME" value="mediator.Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_mode_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interpreter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interpreter" />
-      <option name="MAIN_CLASS_NAME" value="interpreter.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test" />
         <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.Test.test1 (2)" />
         <item itemvalue="JUnit.Test.test (1)" />
         <item itemvalue="JUnit.Test.test1 (1)" />
-        <item itemvalue="JUnit.Test.test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +207,12 @@
       <workItem from="1690683581225" duration="12411000" />
       <workItem from="1690807799139" duration="5437000" />
       <workItem from="1690894493888" duration="1868000" />
-      <workItem from="1690989957011" duration="1084000" />
+      <workItem from="1690989957011" duration="1456000" />
+      <workItem from="1691067623073" duration="1230000" />
+      <workItem from="1691158414859" duration="823000" />
+      <workItem from="1691161553424" duration="1010000" />
+      <workItem from="1691164709165" duration="6000" />
+      <workItem from="1691165583099" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="单例简单工厂 工厂方法">
       <created>1690041845192</created>
@@ -316,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690902243054</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="命令 解释器 中介。">
+      <created>1690991348417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690991348417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +326,7 @@
     <MESSAGE value="模板 策略 责任链" />
     <MESSAGE value="状态 迭代器" />
     <MESSAGE value="访问者 备忘录" />
-    <option name="LAST_COMMIT_MESSAGE" value="访问者 备忘录" />
+    <MESSAGE value="命令 解释器 中介。" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令 解释器 中介。" />
   </component>
 </project>
